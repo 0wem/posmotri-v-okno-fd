@@ -149,11 +149,6 @@ ol {
   margin: 1px;
 }
 
-.search-form__label:has(:focus-visible) {
-  padding: 2px;
-  border: 1px solid #FFF;
-}
-
 .button {
   cursor: pointer;
   height: 100%;
@@ -216,6 +211,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 6px;
+  flex-grow: 1;
 }
 
 .content__video-card-description-container:hover {
@@ -263,10 +259,6 @@ ol {
 
 .content__list-item {
   display: grid;
-}
-
-.content__video-card-description-container {
-  flex-grow: 1;
 }
 
 .content__list-item:focus {
