@@ -96,6 +96,7 @@ ol {
 
 .search-form__label {
   display: flex;
+  justify-content: center;
   gap: 5px;
 }
 
