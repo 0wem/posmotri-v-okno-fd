@@ -51,7 +51,10 @@ ol {
   justify-content: center;
   align-items: end;
   gap: 25px;
-  margin-bottom: 140px;
+}
+
+.result {
+  margin-bottom: 147px;
 }
 
 .result__video-container {
@@ -158,6 +161,10 @@ ol {
   border: 1px solid #FFF;
 }
 
+.button:hover {
+  text-decoration: underline;
+}
+
 .button:focus {
     outline: none;
 }
@@ -167,6 +174,8 @@ ol {
 }
 
 .search-form__submit-button {
+  display: flex;
+  align-items: end;
   padding: 6px 73px;
 }
 
@@ -176,6 +185,7 @@ ol {
   gap: 26px;
   inline-size: 400px;
   block-size: 100%;
+  margin-bottom: 140px;
 }
 
 .title {
@@ -184,6 +194,7 @@ ol {
   font-weight: 700;
   line-height: 94%;
   text-transform: uppercase;
+
 }
 
 .content__accent {
